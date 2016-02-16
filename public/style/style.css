@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	color: #C9C9C9;
+	color: #cccccc;
 
 }
 
@@ -25,9 +25,7 @@ header {
  }
 
  aside {
-	position: absolute;
-	top: 140px;
-	left: 425px;
+ 	padding-top: 11%;
 	font-family: verdana;
 	font-size: 13px;
  }
@@ -40,11 +38,18 @@ aside ul {
 
 aside li {
 	padding-bottom: 40px;
+	white-space: nowrap;
 }
+
+.data {
+	float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 7px;}
 
 aside a {
 	color: grey;
-	padding-left: 14px;
+	padding-left: 7px;
 }
 
 footer {
