@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 	color: #cccccc;
-
 }
 
 header {
@@ -9,15 +8,20 @@ header {
 	margin: 0;
 	width: 100%;
  }
+
  header a {
  	text-decoration: none;
  	position: absolute;
  	top: 0;
  }
 
- header .a1 {
- 	right: 140px;
+ .mail{
+	right: 11%;
  }
+
+/*.mail:hover {
+ 	background-image: url(images/mail_on.gif);
+ }*/
 
  header .a2 {
 	top: 15px;
@@ -27,7 +31,7 @@ header {
  aside {
  	padding-top: 11%;
 	font-family: verdana;
-	font-size: 13px;
+	font-size: 9.4pt;
  }
 
 aside ul {
@@ -45,33 +49,39 @@ aside li {
 	float: left;
     width: 40%;
     text-align: right;
-    padding-right: 7px;}
+}
 
 aside a {
 	color: grey;
-	padding-left: 7px;
+	padding-left: 1%;
 }
 
 footer {
 	position: absolute;
 	bottom: 0;
+	width: 99%;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.menu li{
+	float: right;
+	margin-right: 14%;
+	display: inline-block;
+	padding-bottom: 25px;
+}
+
+.menu a {
+	
 }
 
 .logo {
 	position: absolute;
-	bottom: 0;
-	left: 187px;
-}
-
-.menu {
-	padding-bottom: 5px;
-}
-
-.menu li{
-	display: inline;
-	padding-left: 192px;
-}
-
-.menu .li1 {
-	padding-left: 473px;
+	padding-left: 15%;
+	padding-bottom: 0px;
+	margin-top: -40px;
 }
