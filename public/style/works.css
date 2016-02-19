@@ -15,48 +15,58 @@ header {
 	width: 100%;
  }
 
- header .a1 .a2 {
- 	text-decoration: none;
- 	position: absolute;
+ header a {
+	position: absolute;
  	top: 0;
  }
 
- .mail{
-	right: 11%;
+ header .a1 {
+	left: 0;
  }
 
-/*.mail:hover {
- 	background-image: url(images/mail_on.gif);
- }*/
+ header p {
+ 	position: absolute;
+ 	top: -12px;
+ 	left: 72px;
+ }
 
  header .a2 {
-	top: 15px;
-	right: 15px;
+ 	text-decoration: none;
+ 	right: 11%;
  }
 
- aside {
- 	padding-top: 11%;
- }
-
-aside ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+.works_h {
+	padding-top: 72px;
+	margin-left: 46%;
+	padding-bottom: 55px;
 }
 
-aside li {
+nav {
+	margin: auto;
+	width: 330px;
+}
+
+nav img {
+	padding-left: 50px;
 	padding-bottom: 40px;
-	white-space: nowrap;
 }
 
-.data {
-	float: left;
-    width: 40%;
-    text-align: right;
+nav .img1 {
+	margin-left: -20px;
 }
 
-aside a {
-	padding-left: 1%;
+nav .img2 {
+	margin-left: -40px;
+}
+
+nav .img3 {
+	margin-left: 0;
+}
+
+.clients {
+	position: absolute;
+	right: 10%;
+	top: 175px;
 }
 
 footer {
