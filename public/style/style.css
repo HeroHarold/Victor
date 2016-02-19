@@ -9,6 +9,10 @@ a {
 	color: grey;
 }
 
+a:hover {
+	color: #cccccc;
+}
+
 header {
 	padding: 0;
 	margin: 0;
