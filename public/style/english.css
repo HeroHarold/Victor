@@ -47,8 +47,14 @@ header {
  	line-height: 1.5;
  }
 
+ footer {
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 99%;
+ }
+
  footer img {
  	position: absolute;
- 	left: 45%;
  	bottom: 0;
+	left: 44%;
 }
