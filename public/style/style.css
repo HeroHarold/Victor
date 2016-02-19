@@ -15,13 +15,13 @@ header {
 	width: 100%;
  }
 
- header .a1 .a2 {
+ header .a1, .a2 {
  	text-decoration: none;
  	position: absolute;
  	top: 0;
  }
 
- .mail{
+ .a1{
 	right: 11%;
  }
 
