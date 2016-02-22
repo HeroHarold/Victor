@@ -1,0 +1,20 @@
+{% extended "layout.html.twig" %}
+
+{% block title %}
+<title>Видео</title>
+{% endblock %}
+
+{% block style %}
+<link href="\Victor/public/style/video.css" rel="stylesheet">
+{% endblock %}
+
+{% block body%}
+<article>
+<img src="\Victor/public/images/works/clients_h.png" class="clients_h">
+<ul>
+    {% for video in videos %}
+        <li><a href="#">{{ video.title }}</a></li>
+    {% endfor %}
+</ul>
+</article>
+{% endblock %}
