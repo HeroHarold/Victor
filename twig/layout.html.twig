@@ -1,0 +1,36 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		{% block title %}
+		
+		{% endblock %}
+
+		{% block style %}
+		{% endblock %}
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<header>
+			{% block navgate %}
+			
+			{% endblock %}
+
+			<a href="#" class="a2"><img src="images/mail.gif"></a>
+		</header>
+		{% block body%}
+		{% endblock %}
+
+		{% block footer %}
+		<footer>
+			<a href="#" class="logo"><img src="images/logo.gif"></a>
+			<ul class="menu">
+				<li><a href="#"><img src="images/old.png"></a></li>
+				<li><a href="#"><img src="images/about.png"></a></li>
+				<li><img src="images/works/works_active.png"></li>
+			</ul>
+		</footer>
+		{% endblock %}
+	</body>
+</html>

@@ -1,0 +1,20 @@
+{% extended "layout.html.twig" %}
+
+{% block title %}
+<title>Клиенты</title>
+{% endblock %}
+
+{% block style %}
+<link href="\Victor/public/style/clients.css" rel="stylesheet">
+{% endblock %}
+
+{% block body%}
+<article>
+<img src="\Victor/public/images/works/clients_h.png" class="clients_h">
+<ul>
+    {% for client in clients %}
+        <li><a href="#">{{ client.title }}</a></li>
+    {% endfor %}
+</ul>
+</article>
+{% endblock %}
