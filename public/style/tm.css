@@ -1,64 +1,12 @@
-body {
-	background-color: black;
-	color: #cccccc;
-	font-family: verdana;
-	font-size: 9.4pt;
+article {
+ 	margin-left: 31.5%;
 }
 
-a {
-	color: grey;
-}
-
-a:hover {
-	color: #cccccc;
-}
-
-header {
-	padding: 0;
-	margin: 0;
-	width: 100%;
- }
-
- header a {
-	position: absolute;
- 	top: 0;
- }
-
- header .a1 {
-	left: 0;
- }
-
- header p {
- 	position: absolute;
- 	top: -13px;
- }
-
- header .p1 {
-	left: 72px;
- }
-
- header .a3 {
- 	left: 90px;
- }
-
- header .p2 {
-	left: 145px;
- }
-
- header .a2 {
- 	text-decoration: none;
- 	right: 11%;
- }
-
- .tm_h {
- 	margin-left: 34.5%;
+.tm_h {
+ 	margin-left: 40px;
  	margin-top: 120px;
  	margin-bottom: 5px;
- }
-
- article {
- 	margin-left: 31.5%;
- }
+}
 
 article li {
 	line-height: 2;
@@ -83,30 +31,4 @@ aside ul {
 aside li {
 	list-style-type: none;
 	line-height: 1.7;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 99%;
-}
-
-.menu {
-	padding: 0;
-	margin: 0;
-	white-space: nowrap;
-}
-
-.menu li{
-	float: right;
-	margin-right: 14%;
-	display: inline-block;
-	padding-bottom: 25px;
-}
-
-.logo {
-	position: absolute;
-	padding-left: 15%;
-	padding-bottom: 0px;
-	margin-top: -40px;
 }

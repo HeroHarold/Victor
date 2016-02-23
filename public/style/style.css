@@ -17,74 +17,37 @@ header {
 	padding: 0;
 	margin: 0;
 	width: 100%;
- }
+}
 
- header .a1, .a2 {
- 	text-decoration: none;
- 	position: absolute;
+header a {
+	position: absolute;
  	top: 0;
- }
-
- .a1{
-	right: 11%;
- }
-
-/*.mail:hover {
- 	background-image: url(images/mail_on.gif);
- }*/
-
- header .a2 {
-	top: 15px;
-	right: 15px;
- }
-
- aside {
- 	padding-top: 11%;
- }
-
-aside ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
 }
 
-aside li {
-	padding-bottom: 40px;
-	white-space: nowrap;
+.way1 {
+	left: 0;
 }
 
-.data {
-	float: left;
-    width: 40%;
-    text-align: right;
+.way2 {
+ 	left: 90px;
 }
 
-aside a {
-	padding-left: 1%;
+header p {
+ 	position: absolute;
+ 	top: -13px;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 99%;
+header .p1 {
+ 	left: 72px;
 }
 
-.menu {
-	padding: 0;
-	margin: 0;
-	white-space: nowrap;
+header .p2 {
+	left: 145px;
 }
 
-.menu li{
-	float: right;
-	margin-right: 14%;
-	display: inline-block;
-	padding-bottom: 25px;
+.mail {
+ 	text-decoration: none;
+ 	right: 11%;
 }
 
-.logo {
-	position: absolute;
-	padding-left: 15%;
-	padding-bottom: 0px;
-	margin-top: -40px;
-}
+

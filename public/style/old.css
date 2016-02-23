@@ -1,47 +1,6 @@
-body {
-	background-color: black;
-	color: #cccccc;
-	font-family: verdana;
-	font-size: 9.4pt;
-}
-
-a {
-	color: grey;
-}
-
-a:hover {
-	color: #cccccc;
-}
-
-header {
-	padding: 0;
-	margin: 0;
-	width: 100%;
- }
-
- header a {
-	position: absolute;
- 	top: 0;
- }
-
- header .a1 {
-	left: 0;
- }
-
- header p {
- 	position: absolute;
- 	top: -12px;
- 	left: 72px;
- }
-
- header .a2 {
- 	text-decoration: none;
- 	right: 11%;
- }
-
- article {
+article {
  	width: 100%;
- } 
+} 
 
 .old_h {
 	padding-top: 165px;
@@ -56,30 +15,4 @@ article ul {
 article li {
 	display: inline;
 	list-style-type: none;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 99%;
-}
-
-.menu {
-	padding: 0;
-	margin: 0;
-	white-space: nowrap;
-}
-
-.menu li{
-	float: right;
-	margin-right: 14%;
-	display: inline-block;
-	padding-bottom: 25px;
-}
-
-.logo {
-	position: absolute;
-	padding-left: 15%;
-	padding-bottom: 0px;
-	margin-top: -40px;
 }

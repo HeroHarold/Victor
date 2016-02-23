@@ -1,0 +1,30 @@
+.eng {
+	top: 15px;
+	right: 15px;
+	text-decoration: none;
+}
+
+article {
+ 	padding-top: 11%;
+}
+
+article ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+article li {
+	padding-bottom: 40px;
+	white-space: nowrap;
+}
+
+.data {
+	float: left;
+    width: 40%;
+    text-align: right;
+}
+
+article a {
+	padding-left: 1%;
+}
