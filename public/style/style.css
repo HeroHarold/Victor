@@ -32,6 +32,10 @@ header a {
  	left: 90px;
 }
 
+.way3 {
+	left: 163px;
+}
+
 header p {
  	position: absolute;
  	top: -13px;
@@ -43,6 +47,10 @@ header .p1 {
 
 header .p2 {
 	left: 145px;
+}
+
+header .p3 {
+	left: 310px;
 }
 
 .mail {
