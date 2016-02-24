@@ -50,4 +50,25 @@ header .p2 {
  	right: 11%;
 }
 
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 99%;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 15%;
+}
+
+.menu .img {
+	padding-bottom: 20px;
+}
+
 
