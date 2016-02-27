@@ -1,4 +1,4 @@
-.eng {
+header a.eng {
 	top: 15px;
 	right: 15px;
 	text-decoration: none;
@@ -8,18 +8,18 @@ article {
  	padding-top: 140px;
 }
 
-article ul {
+article ul.last_news {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 }
 
-article li {
+article ul.last_news li {
 	padding-bottom: 40px;
 	white-space: nowrap;
 }
 
-.data {
+article ul.last_news li .date {
 	float: left;
     width: 40%;
     text-align: right;
