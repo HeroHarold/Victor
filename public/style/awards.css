@@ -1,0 +1,23 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+ul.list_awards {
+	text-align: center;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+ul.list_awards li {
+	list-style-type: none;
+	line-height: 1.5;
+}
+
+ul.list_awards li.li2 {
+	margin-left: 130px;
+}
