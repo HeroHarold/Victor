@@ -1,9 +1,21 @@
-body {
+html {
 	background-color: black;
 	color: #cccccc;
 	font-family: verdana;
 	font-size: 9.4pt;
-	width: 100
+	min-height: 100%;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
 }
 
 a {
@@ -15,70 +27,56 @@ a:hover {
 }
 
 header {
-	padding: 0;
-	margin: 0;
 	width: 100%;
+	min-width: 430px;
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	box-sizing: border-box;
 }
 
-header a {
-	position: absolute;
- 	top: 0;
+header .eng {
+	margin: 15px 15px 0 0;
 }
 
-.way1 {
-	left: 0;
+header .mail {
+	margin: 0 5% 0 0;
 }
 
-.way2 {
- 	left: 90px;
-}
-
-.way3 {
-	left: 163px;
-}
-
-header p {
- 	position: absolute;
- 	top: -13px;
-}
-
-header .p1 {
- 	left: 72px;
-}
-
-header .p2 {
-	left: 145px;
-}
-
-header .p3 {
-	left: 310px;
-}
-
-.mail {
- 	text-decoration: none;
- 	right: 11%;
+.main {
+	width: 100%;
+	min-width: 430px;
+	margin: auto;
+	flex-grow: 1;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
-	width: 99%;
+	width: 76%;
+	min-width: 430px;
+	margin: auto;
+	box-sizing: border-box;
 }
 
-.menu {
-	padding: 0;
+footer ul.menu {
 	margin: 0;
-	white-space: nowrap;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.menu li {
+footer ul.menu li{
 	list-style-type: none;
-	display: inline;
-	margin-left: 15%;
 }
 
-.menu .img {
-	padding-bottom: 20px;
+footer li.menu_li {
+	margin: 20px 0 0 0;
 }
-
-

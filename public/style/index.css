@@ -1,16 +1,8 @@
-header a.eng {
-	top: 15px;
-	right: 15px;
-	text-decoration: none;
-}
 
-article {
- 	padding-top: 140px;
-}
 
 article ul.last_news {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 0 -15%;
 	list-style-type: none;
 }
 
@@ -26,5 +18,5 @@ article ul.last_news li .date {
 }
 
 article a {
-	padding-left: 1%;
+	padding-left: 4%;
 }
