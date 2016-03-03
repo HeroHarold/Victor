@@ -47,7 +47,7 @@ header .way {
 	align-items: flex-start;
 }
 
-header .way p.p1{
+header .way p{
 	margin: 0 10px;
 }
 
@@ -66,7 +66,6 @@ header .mail {
 .main {
 	width: 100%;
 	min-width: 430px;
-	margin: auto;
 	flex-grow: 1;
 	display: -webkit-flex;
 	display: flex;

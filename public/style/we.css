@@ -1,0 +1,23 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main article img {
+	margin-bottom: 26px;
+}
+
+.main div.lines{
+	width: 100%;
+	background-image: url(../images/about/lines.gif);
+	background-repeat: repeat-x;
+	margin: auto;
+}
+
+div.lines img {
+	margin-left: 31.5%;
+}
