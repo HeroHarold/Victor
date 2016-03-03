@@ -33,16 +33,34 @@ header {
 	padding: 0;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	box-sizing: border-box;
+}
+
+#index header {
+	justify-content: flex-end;
+}
+
+header .way {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+}
+
+header .way p.p1{
+	margin: 0 10px;
 }
 
 header .eng {
 	margin: 15px 15px 0 0;
 }
 
-header .mail {
+header .mail_index {
 	margin: 0 5% 0 0;
+}
+
+header .mail {
+	margin: 0 11% 0 0;
 }
 
 .main {

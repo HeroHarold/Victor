@@ -1,27 +1,34 @@
-.about_h {
- 	margin-left: 47%;
- 	padding-top: 52px;
+.main article {
+	width: 40%;
+	min-width: 610px;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
-.nav1 {
- 	margin-left: 24%;
+.main article img {
+	margin-bottom: 55px;
 }
 
-.nav1 img {
- 	margin-left: 50px;
- 	margin-top: 17px;
+.main article img.about_h {
+	margin-bottom: 20px;
 }
 
-.worlds {
- 	margin-top: 60px;
- 	margin-left: 29%;
+.main article nav {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	justify-content: space-between;
 }
 
-.nav2 {
-	margin-left: 38%;
+.main article .nav1 {
+	width: 90%;
 }
 
-.nav2 img {
- 	margin-top: 57px;
- 	margin-left: 50px;
+.main article .nav2 {
+	width: 33%;
 }
+
