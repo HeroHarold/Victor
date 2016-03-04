@@ -1,0 +1,21 @@
+.main article {
+	width: 18%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	line-height: 2;
+}
+
+.main article ul {
+	padding: 0;
+}
+
+
+.main article li {
+	list-style-type: none;
+}
+
+
+
