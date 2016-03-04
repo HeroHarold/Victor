@@ -1,0 +1,22 @@
+.main article {
+	width: 60%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.main article div.head {
+	margin: 30px 0;
+}
+
+.main article div.head h3 {
+	padding: 0;
+	margin-bottom: -10px;
+}
+
+.main article .content {
+	margin-bottom: 40px;
+}
