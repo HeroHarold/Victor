@@ -1,0 +1,49 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main article div {
+	width: 100%;
+}
+ 
+.main article div.num1 {
+	width: 80%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main article div.num1 .e-mail {
+	width: 8%;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.e-mail .mail-go {
+	padding-bottom: 150px;
+}
+
+.main article div.num2 {
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 40%;
+	margin-top: -30px;
+}
+
+.main article div.num3 {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 600px;
+}
