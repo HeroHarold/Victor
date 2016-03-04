@@ -1,0 +1,29 @@
+.main article {
+	width: 100%;
+}
+
+.main article img.h {
+	margin-left: 25%;
+	margin-bottom: 25px;
+}
+
+article ul.last_news {
+	padding: 0;
+	margin-left: -250px;
+	list-style-type: none;
+}
+
+article ul.last_news li {
+	padding-bottom: 40px;
+	white-space: nowrap;
+}
+
+article ul.last_news li .date {
+	float: left;
+    width: 40%;
+    text-align: right;
+}
+
+article div {
+	padding-right: 1%;
+}
