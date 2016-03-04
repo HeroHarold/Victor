@@ -1,0 +1,14 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.brain {
+	position: absolute;
+	left: 52%;
+	top: 26%;
+}
