@@ -1,0 +1,13 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction:column;
+}
+
+.main article img {
+	margin-bottom: 20px;
+}
