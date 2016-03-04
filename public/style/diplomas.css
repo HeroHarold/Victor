@@ -1,0 +1,17 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main article img {
+}
+
+.main figcaption{
+	text-align: center;
+	font-style: italic;
+	margin: 20px 0;
+}
