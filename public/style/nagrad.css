@@ -1,0 +1,52 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+section {
+	width: 100%;
+	line-height: 1.5;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+section div.award {
+	width: 240px;
+	position: static;
+}
+
+section div.award img.award_img {
+	float: right;
+}
+
+section .list{
+	width: 80%;
+	padding-left: 30px;
+	margin-top: -15px;
+}
+
+section .list p.h {
+	margin-bottom: 20px;
+}
+
+section div.list ul{	
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+section div.list ul li{
+	list-style-type: none;
+
+}
+
+section .list span {
+	font-weight: bold;
+}
