@@ -1,0 +1,17 @@
+.main {
+	background-image: url(../images/about/map.gif);
+	background-position: center -285px;
+}
+
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-left: 50%;
+	padding-bottom: 50px;
+}
+
