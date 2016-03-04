@@ -1,0 +1,27 @@
+.main article {
+	width: 30%;
+	min-width: 200px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	line-height: 1.5;
+}
+
+.vacancy_h {
+	margin-bottom: 30px;
+}
+
+.main article ul {
+	padding: 0;
+}
+
+.main article ul li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.inform {
+	margin-top: 80px;
+}

@@ -65,7 +65,6 @@ header .mail {
 
 .main {
 	width: 100%;
-	min-width: 430px;
 	flex-grow: 1;
 	display: -webkit-flex;
 	display: flex;
