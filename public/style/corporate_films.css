@@ -1,0 +1,53 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	line-height: 1.5;	
+}
+
+.main article div.list {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+	float: right;
+	margin-right: 8%;
+}
+
+.main article div.list img.h {
+	margin-bottom: 20px;
+}
+
+.main article div.list figure {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.main article div.list figure figcaption {
+	font-style: italic;
+	font-size: 8pt;
+}
+
+.main article div.aside {
+	width: 30%;
+	margin-right: 20px;
+}
+
+.main article div.aside p {
+	padding: 0;
+	margin-left: 40px;
+}
+
+.main article ul li {
+	list-style-type: none;
+	font-size: 8pt;
+	line-height: 1.8;
+}
+
+.main article ul li.active {
+	margin-left: -13px;
+}
