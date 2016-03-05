@@ -1,27 +1,43 @@
-article {
- 	margin-left: 31.5%;
- 	line-height: 1.5;
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	line-height: 1.5;	
 }
 
-.design_h {
- 	margin-left: 40px;
- 	margin-top: 72px;
- 	margin-bottom: 5px;
+.main article div.list {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+	margin-left: 20%;
 }
 
-figcaption {
+.main article div.list img.h {
+	margin-bottom: 20px;
+}
+
+.main article div.list figure {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.main article div.list figure figcaption {
 	font-style: italic;
 	font-size: 8pt;
 }
 
-aside {
-	position: absolute;
-	right: 10%;
-	top: 72px;
+.main article ul {
+	margin-left: 8%;
 }
 
-aside li {
+.main article ul li {
 	list-style-type: none;
 	font-size: 8pt;
-	line-height: 1.5;
+	line-height: 1.8;
 }
