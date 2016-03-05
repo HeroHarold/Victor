@@ -1,0 +1,54 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 1.5;	
+	margin-top: 35px;
+}
+
+.list {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+}
+
+.list .images figure{
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+figcaption {
+	margin-bottom: 15px;
+	font-style: italic;
+}
+
+.list p.about {
+	white-space: pre-wrap;
+	margin-right: 5%;
+}
+ 
+.list p.about span {
+	font-style: italic;
+}
+
+.main article ul {
+	width: 70%;
+	padding: 0;
+	margin: 40px 0;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.main article ul li {
+	list-style-type: none;
+}
+
+.main article ul .active {
+	font-weight: bold;
+}
