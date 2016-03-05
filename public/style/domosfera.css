@@ -1,0 +1,61 @@
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	flex-direction: column;
+	line-height: 1.5;	
+	color: grey;
+	font-size: 10pt;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.main article section {
+	margin-top: 20px;
+}
+
+.main article section.head {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.main article section.head ul {
+	margin-left: 40px;
+}
+
+.main article section h4 {
+	color: #cccccc;
+	padding: 0;
+	margin: 0;
+}
+
+.main article section p {
+	margin: 0;
+	padding: 0;
+}
+
+.main article section ul {
+	padding: 0;
+	margin: 0;
+}
+
+.main article section ul li {
+	list-style-type: none;
+}
+
+.main article section a img {
+	margin-top: 20px;
+}
+
+.main article section.about {
+	margin: 40px 0 70px 0;
+}
+
+.main article section.about p {
+	white-space: pre-wrap;
+	font-style: italic;
+}
