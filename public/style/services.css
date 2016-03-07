@@ -1,12 +1,12 @@
 .main article {
-	width: 40%;
+	width: 100%;
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .main article img.lamp_h {
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
