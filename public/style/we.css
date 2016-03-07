@@ -2,9 +2,8 @@
 	width: 100%;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .main article img {
@@ -15,9 +14,9 @@
 	width: 100%;
 	background-image: url(../images/about/lines.gif);
 	background-repeat: repeat-x;
-	margin: auto;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-div.lines img {
-	margin-left: 31.5%;
-}
