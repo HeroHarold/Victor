@@ -4,7 +4,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.main article img.h {
+	margin: auto;
 }
 
 ul.list_awards {
