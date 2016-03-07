@@ -1,0 +1,60 @@
+.main article {
+	width: 72%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	flex-direction: column;
+	line-height: 1.5;	
+	color: grey;
+	margin-top: 40px;
+}
+
+.main article section {
+	
+	font-size: 10pt;
+}
+
+.main article img.h {
+	margin: auto;
+}
+
+.main article section {
+	margin-top: 20px;
+}
+
+.main article section p {
+	padding: 0;
+	margin: 0;
+}
+
+.main article section span {
+	font-weight: bold;
+	color: #cccccc;
+}
+
+.main article section ul {
+	padding-left: 50px;
+	margin: 0;
+}
+
+.main article section.img {
+	margin-left: 20%;
+}
+
+div.footlist {
+	margin: auto;
+}
+
+div.footlist ul {
+	padding: 60px 0;
+	margin: 0;
+}
+
+div.footlist ul li {
+	list-style-type: none;
+}
+
+div.footlist ul li.active {
+	color: #cccccc;
+}
