@@ -1,13 +1,30 @@
-article {
- 	margin-left: 31.5%;
+.main article {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5;	
 }
 
-.clients_h {
- 	margin-left: 40px;
- 	margin-top: 70px;
+.main article div.list {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
 }
 
-article li {
-	line-height: 2;
-	list-style-type: none;
+.main article div.list img.h {
+	margin-bottom: 20px;
+}
+
+.main article div.list ul{
+	padding: 0;
+	margin: 0;
+}
+
+.main article div.list ul li {
+list-style-type: none;
 }
