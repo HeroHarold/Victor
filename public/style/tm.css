@@ -1,34 +1,41 @@
-article {
- 	margin-left: 31.5%;
+.main article {
+	width: 70%;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	line-height: 1.5;	
 }
 
-.tm_h {
- 	margin-left: 40px;
- 	margin-top: 120px;
- 	margin-bottom: 5px;
+.main article div.list {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+	float: right;
+	margin-right: 8%;
 }
 
-article li {
-	line-height: 2;
+.main article div.list img.h {
+	margin-bottom: 20px;
+}
+
+.main article div.list ul{
+	padding: 0;
+	margin: 0;
+}
+
+.main article div.list ul li {
+list-style-type: none;
+}
+
+.main article ul.sidelist li {
 	list-style-type: none;
+	font-size: 8pt;
+	line-height: 1.8;
 }
 
-aside {
-	position: absolute;
-	top: 120px;
-	right: 13%;
-}
-
-aside p {
-	position: inherit;
-	left: 25px;
-}
-
-aside ul {
-	padding-top: 20px;
-}
-
-aside li {
-	list-style-type: none;
-	line-height: 1.7;
+.main article ul.sidelist li.active {
+	margin-left: -13px;
 }
