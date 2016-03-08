@@ -1,5 +1,6 @@
 .main article {
 	width: 100%;
+	min-width: 550px;
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
@@ -12,24 +13,20 @@
 }
  
 .main article div.num1 {
-	width: 80%;
+	width: 84%;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
+	margin-top: -50px;
 }
 
-.main article div.num1 .e-mail {
-	width: 8%;
+header .e-mail {
 	display: -webkit-flex;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-}
-
-.e-mail .mail-go {
-	padding-bottom: 150px;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 8%;
 }
 
 .main article div.num2 {
@@ -43,7 +40,6 @@
 	width: 100%;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
-	margin-left: 600px;
 }
